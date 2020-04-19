@@ -1,0 +1,82 @@
+.container {
+        margin-left: 43px;
+        margin-top: 40px;
+        margin-right: 43px;
+        font-family: 'Montserrat', sans-serif;
+}
+.header-left {
+    float: left;
+    width: 50%;
+}
+.header-right {
+    float: right;
+    width: 50%;
+    padding-top: 4mm;
+}
+.header-right a {
+    text-decoration: none;
+    color: black;
+}
+span.header1 {
+    position: relative;
+    left: 28px;
+    top: 5px;
+}
+span.header2 {
+    position: relative;
+    left: 148px;
+    top: 5px;
+}
+.header-right button{
+    background: linear-gradient(0.25turn, #F07229, #F2752D,#F2762E,#F47A33,#F57E37,#F6813A,#F7843D,#F8863F,#FA8A43,#FB8E47,#FC924B,#FE9650,#FF9953);
+    color: white;
+    border: none;
+    border-radius: 95px;
+    width: 150px;
+    height: 35px;
+    font-size: medium;
+    float: right;
+}
+.section0 {
+    float: left;
+    width: 100%;
+}
+.section0-left {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 117px;
+}
+.section0-right {
+    float: right;
+    width: 50%;
+    position: relative;
+    left: 51px;
+    top:76px;
+}
+span.head {
+    font-size: 18px;
+}
+span.heading {
+    font-weight: 300;
+    font-size: 48px;
+}
+.section0-left button{
+    background: linear-gradient(0.25turn, #F07229, #F2752D,#F2762E,#F47A33,#F57E37,#F6813A,#F7843D,#F8863F,#FA8A43,#FB8E47,#FC924B,#FE9650,#FF9953);
+    color: white;
+    border: none;
+    border-radius: 95px;
+    width: 217px;
+    height: 35px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
