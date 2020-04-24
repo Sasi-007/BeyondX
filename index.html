@@ -11,7 +11,7 @@
     <div class="container">
         <div class="header">
             <div class="header-left">
-                <img src="images/Group 23.png" alt="BrandLogo">
+                <img src="images/Group 23.png" alt="BrandLogo" class="responsive">
             </div>
             <div class="header-right">
                 <span class="header1">
@@ -35,9 +35,143 @@
                 <img src="images/Group 46.jpg" alt="section-image">
             </div>
         </div>
-        <div class="section1" style="background-image: url('images/Group 1.jpg');background-repeat: no-repeat;">
-            
+        <div class="section1">
+            <div class="section1-head">
+                <span style="font-size: 32px;">We Offers</span>
+                <br>
+                <span style="font-weight: 300; font-size: 16px;">We love to work with startups because they are as passionate as we are about their products. We will help to find solution for you.</span>
+                <div class="list-buttons">
+                <ul class="unordered-buttons">
+                    <div class="button1">
+                        <li><img src="images/devices.jpg" alt="bus"></li>  
+                        <h4>Technology</h4>
+                        <p>Start with Fresh</p>  
+                    </div>
+                    <div class="button2">
+                        <li><img src="images/noun_User Experience_497415.png" alt="UX"></li>     
+                        <h4>Experience</h4>
+                        <p>Vision Development</p>
+                    </div>
+                    <div class="button3">
+                        <li><img src="images/noun_digital_1060211.png" alt="Digital"></li>   
+                        <h4>Digitalization</h4>
+                        <p>Strong<br> Computerization</p>
+                    </div>
+                    <div class="button4">
+                        <li><img src="images/noun_visualization_1246402.png" alt="Visualize"></li>    
+                        <h4>Visualization</h4>
+                        <p>Eminent scene <br>draftsmen</p>
+                    </div>
+                    <div class="button5">
+                        <li><img src="images/performance.png" alt="Performance"></li>    
+                        <h4>Branding</h4>
+                        <p>Marketing & SEO</p>
+                    </div>
+                </ul>    
+                </div>       
+            </div>
+        </div>
+        <div class="section2">
+            <div class="section2-left">
+                <p class="p1">Expert more than <br>Design and Development</p>
+                <p class="p2">BeyondX is a complete creative suite platform equipped with designers, developers, artists, analysts and brand architects shaping solutions for all design and data challenges that confront start-ups and enterprises.</p>
+            </div>
+            <div class="section2-right">
+                <img src="images/Untitled.jpg" alt="Pic">
+            </div>
+        </div>
+        <div class="section3">
+            <div class="heading-3">
+                <p>Client & Partners</p>
+            </div>
+            <div class="sub-heading-3">
+                <p>Want to expose your portfolio to more customers? Nominate your file for use in our Free File of the Month marketing promotions!</p>
+                <br><br>
+            </div>
+            <br>
+            <div class="images-3">
+                <div style="width: 16%; float: left;">
+                    <img src="images/A-Run.jpg" alt="Run">    
+                </div>
+                <div style="width: 16%; float: left;">
+                    <img src="images/Schwerkraft.jpg" alt="Image2">    
+                </div>
+                <div style="width: 16%; float: left;">
+                    <img src="images/Table-Tenis-Tournament.jpg" alt="Tennis image">    
+                </div>
+                <div style="width: 16%; float: right;">
+                    <img src="images/Castle-Bakes_01_Cups_Mock-up_s.jpg" alt="Castle image">    
+                </div>
+                <div style="width: 16%; float: right;">
+                    <img src="images/Aura-Wellness-Centre.jpg" alt="Wellness image">                    
+                </div>                
+                <div style="width: 16%; float: right;">
+                    <img src="images/Circle-Technologies.jpg" alt="Circle image">                    
+                </div>
+            </div>
+        </div>
+        <div class="section4" style="width: 100%; float: left; text-align: center; background-image: url('images/quote.jpg'); background-repeat: no-repeat;">
+            <div class="heading-4" style="width: 100%; float: left; text-align: center;">
+                <p>What they say</p>
+            </div>
+            <div class="sub-heading-4" style="width: 100%; float: left; text-align: center;font-size: 16px; font-weight: 300;">
+                <p>Based upon the information you provide, available  developers give estimates.<br>
+                    The average + 15% Codable fee = Your Quote</p>
+            </div>
+            <div class="quotes-4" style="width: 100%; float: left; text-align: center;">
+                <p>"I must say the documentation was great and so  it is fun to work with it! Thank you for your great job here ,<br>
+                    guys ! Keep up the good work" </p>
+            </div>
+            <div class="payment-4" style="width: 100%; float: left; text-align: center;">
+                <p class="p1" style="font-size: 18px; font-weight: 700;">Castel bales</p>
+                <div class="p2" style="text-align: center; font-size: 18px; font-weight: 700;">
+                    <p>Complete CRM support and  maintainence</p>                    
+                </div>
+                <img src="images/logo123.jpg" alt="logo"><br>
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                  </div>
+                  <br>
+                  <!-- if want to work progress bar please enable the button
+<button onclick="move()">Click Me</button>                    -->
+            </div>
+        </div>
+        <div class="section5">
+            <div class="sec5-wrapper">
+            <div class="section5-heading">
+                <p>We will help to find solution for your problem</p> 
+            </div>
+            <div class="section5-btn">
+                <button>Find solution</button>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Hello this is footer</p>
         </div>
     </div>
+
+
+    <script>
+        var i = 0;
+        function move() {
+          if (i == 0) {
+            i = 1;
+            var elem = document.getElementById("myBar");
+            var width = 1;
+            var id = setInterval(frame, 10);
+            function frame() {
+              if (width >= 100) {
+                clearInterval(id);
+                i = 0;
+              } else {
+                width++;
+                elem.style.width = width + "%";
+              }
+            }
+          }
+        }
+        </script>
+        
     </body>
 </html>
