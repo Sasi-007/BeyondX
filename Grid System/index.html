@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/7eb66d378c.js" crossorigin="anonymous"></script>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <script>
+            $(function() {
+        $(".toggle").on("click", function() {
+            if ($(".item").hasClass("active")) {
+                $(".item").removeClass("active");
+                $(this).find("a").html("<i class='fas fa-bars'></i>");
+            } else {
+                $(".item").addClass("active");
+                $(this).find("a").html("<i class='fas fa-times'></i>");
+            }
+        });
+    });
+        </script>
+    </head>
+    <body>
+         <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#"><img src="images/Group 23.png" alt="BrandLogo"></a></li>
+                <li class="item"><a href="#">We offers</a></li>
+                <li class="item"><a href="#">Our Clients</a></li>
+                <li class="item button"><a href="#">Contact Us</a></li>
+                <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+         <div class="section0">
+            <div class="section0-left">
+               <span class="head"> WELCOME TO BEYOND TECHNOLOGY VISION</span>   <br><br>
+               <span class="heading">STAND OUT AMONG<br> YOUR COMPETITORS</span>
+               <br>
+               <br><br><br><br>
+               <button>Stand Out</button>
+            </div>
+            <div class="section0-right">
+               <img src="images/Group 46.jpg" alt="section-image"><br><br><br><br><br><br>
+            </div>
+        </div>
+        <div class="section-1-2-wrapper" style="background-image: url('images/Group 1.jpg'); background-repeat:no-repeat;    background-position: -148px 77px;">
+            <div class="section1">
+               <span style="font-size: 32px;">We Offers</span>
+               <br><br><br>
+               <span style="font-weight: 300; font-size: 16px;">We love to work with startups because they are as passionate as we are about their products. We will help to find solution for you.<br></span>
+               <div class="list-buttons">
+                  <ul class="unordered-buttons">
+                     <div class="button1">
+                        <li><img src="images/devices.jpg" alt="bus"></li>
+                        <h4>Technology</h4>
+                        <p>Start with Fresh</p>
+                     </div>
+                     <div class="button2">
+                        <li><img src="images/noun_User Experience_497415.png" alt="UX"></li>
+                        <h4>Experience</h4>
+                        <p>Vision Development</p>
+                     </div>
+                     <div class="button3">
+                        <li><img src="images/noun_digital_1060211.png" alt="Digital"></li>
+                        <h4>Digitalization</h4>
+                        <p>Strong<br> Computerization</p>
+                     </div>
+                     <div class="button4">
+                        <li><img src="images/noun_visualization_1246402.png" alt="Visualize"></li>
+                        <h4>Visualization</h4>
+                        <p>Eminent scene <br>draftsmen</p>
+                     </div>
+                     <div class="button5">
+                        <li><img src="images/performance.png" alt="Performance"></li>
+                        <h4>Branding</h4>
+                        <p>Marketing & SEO</p>
+                     </div>
+                  </ul>
+               </div>
+            </div>
+            <div class="section2">
+               <div class="section2-left">
+                  <p class="p1">Expert more than <br>Design and Development</p>
+                  <p class="p2">BeyondX is a complete creative suite platform equipped with designers, developers, artists, analysts and brand architects shaping solutions for all design and data challenges that confront start-ups and enterprises.</p>
+               </div>
+               <div class="section2-right">
+                  <img src="images/Untitled.jpg" alt="Pic">
+               </div>
+            </div>
+         </div>
+    </body>
+</html>

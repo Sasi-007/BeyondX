@@ -436,3 +436,35 @@ button.i-4 {
 	top: 81px;
 	padding-top: 20px;
 }
+
+
+
+
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+	
+
+
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+
+
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+
+	
+}
+
+
+
+
+
+
+
+
