@@ -504,17 +504,20 @@ p.sec4_p3 {
 }
 
 .footer0 {
-	max-width: 100%;
-	display: flex;
-	box-sizing: border-box;
-	/* flex-direction: row; */
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    /* flex-direction: row; */
+    margin-left: 30px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
 }
 
 .footerL {
-	flex: 1;
-	padding: 30px;
-	font-size: 12px;
-	margin: 3px;
+    flex: 1;
+    padding: 30px 30px 30px 0px;
+    font-size: 12px;
+    margin: 3px;
 }
 
 .footerM {
@@ -571,4 +574,13 @@ button.i-1 {
 		margin: 0 auto;
 		margin-left: -19px;
 	}
+}
+
+@media screen and (max-width:700px){
+.footerR {
+    padding: 0px;
+}
+.footerM{
+	padding:0px;
+}
 }
